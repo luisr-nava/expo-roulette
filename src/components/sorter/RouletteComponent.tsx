@@ -1,8 +1,6 @@
 "use client";
 import React, { useState } from "react";
 import { Wheel } from "react-custom-roulette";
-import { Logo } from "../logo";
-import Image from "next/image";
 
 const RouletteComponent = () => {
   const [input, setInput] = useState("");
